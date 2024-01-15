@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
     <header class="header">
         <div class="header__nom">
+            <img src="./assets/img/face_co.png" class="header__nom-img"alt="avatar">
             <h1 class="header__nom-h1">Fabrice LATCHURIE</h1>
             <h2 class="header__nom-2">Développeur Web junior</h1>
         </div>
         <div class="header__contact">
             <div>
-                <p>12 rue des Oliviers<br>31100 Toulouse</p>
+                <p>12 rue des Oliviers <br>31100 Toulouse</p>
+            </div>
+            <div>
                 <p>mon.adresse@gmail.com</p>
+            </div>   
+            <div> 
                 <p>06060606</p>
             </div>
         </div>
@@ -26,12 +32,14 @@
 
             <section class="sidebar__section">
                 <h3 class="sidebar__section-h3">A propos</h3>
-                <p class = "sidebar__section-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, omnis illo accusamus ullam porro dolores laboriosam rem. Alias sed natus tempore deserunt, labore enim officia repellendus obcaecati omnis autem eligendi.</p>
+                <p class = "sidebar__section-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, omnis illo accusamus ullam porro dolores laboriosam rem. Alias sed natus tempore deserunt, labore enim officia repellendus obcaecati omnis autem eligendi.
+                </p>
             </section>
 
             <section class="sidebar__section">
                 <h3 class="sidebar__section-h3">Langues parlées</h3>
-                <ul>
+                <ul class="sidebar__section-ul">
                     <li>Francais - Langue maternelle</li>
                     <li>Anglais - Intermédiare</li>
                     <li>Espagnol - Intermédiaire</li>
@@ -40,7 +48,7 @@
 
             <section class="sidebar__section">
                 <h3 class="sidebar__section-h3">Centres d'intérêt</h3>
-                <ul>
+                <ul class="sidebar__section-ul">
                     <li>Arts platiques</li>
                     <li>Voyages en Van</li>
                     <li>Philosophie / Histoire</li>
@@ -126,12 +134,11 @@
         </div>
 
     </main>
-    <footer>
-        <img src="./assets/img/logo-linkedin.png" alt="linkedin">
-        <img src="./assets/img/logo-twitter.png" alt="twitter">
-        <img src="./assets/img/logo-github.png" alt="github">
+    <footer class="footer">
+        <img src="./assets/img/logo-linkedin.png" class="footer__img" alt="linkedin">
+        <img src="./assets/img/logo-twitter.png" class="footer__img" alt="twitter">
+        <img src="./assets/img/logo-github.png" class="footer__img" alt="github">
         <p>Dernière mise à jour le 15 Janvier 2024</p>
-
     </footer>
 </body>
 </html>
